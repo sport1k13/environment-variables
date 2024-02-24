@@ -1,0 +1,8 @@
+import os
+
+# Set environment variable
+os.environ['API_KEY'] = 'your_api_key'
+
+# Access environment variable
+api_key = os.environ.get('API_KEY')
+print("API Key:", api_key)
